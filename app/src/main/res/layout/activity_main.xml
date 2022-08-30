@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/time"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+
+        android:text="@string/time"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/maxScore"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+
+        android:text="@string/time"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <GridLayout
+        android:id="@+id/grid"
+
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:columnOrderPreserved="false"
+        android:rowOrderPreserved="false"
+        android:orientation="horizontal"
+
+        android:columnCount="3"
+        android:rowCount="3"
+        >
+
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img1"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img2"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img3"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img4"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img5"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img6"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img7"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img8"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+        <ImageButton
+            android:visibility="invisible"
+
+            android:id="@+id/img9"
+
+            android:src="@mipmap/ic_launcher_round"
+
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+
+            android:onClick="ballOnClick"
+            />
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/score"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/start"
+
+            android:layout_weight="1"
+
+            android:gravity="center"
+            />
+
+        <Button
+            android:id="@+id/pause"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:layout_margin="10dp"
+            android:text="@string/Pause"
+
+            android:layout_weight="1"
+
+            android:gravity="center"
+
+            android:onClick="pause"
+            />
+        </LinearLayout>
+
+    </LinearLayout>

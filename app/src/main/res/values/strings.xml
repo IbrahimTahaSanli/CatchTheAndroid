@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Catch the Android</string>
+    <string name="time">Time: </string>
+    <string name="score">Score: </string>
+    <string name="start">Click ball to start</string>
+    <string name="Pause">Pause</string>
+    <string name="maxScore">Max Score: </string>
+    <string name="resume">Resume</string>
+    <string name="finishTitle">Game Over</string>
+    <string name="finishMessage">Great score!</string>
+    <string name="finishMessageMax">New max score!</string>
+</resources>
